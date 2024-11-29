@@ -22,3 +22,12 @@ body {
     padding: 10px;
     visibility: hidden;
   }
+/* Hidden until the story is generated */
+.story {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    visibility: hidden; 
+}
