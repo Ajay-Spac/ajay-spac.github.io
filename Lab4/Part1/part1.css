@@ -1,33 +1,24 @@
 body {
-    font-family: helvetica, sans-serif;
-    width: 350px;
-  }
+  font-family: helvetica, sans-serif;
+  width: 350px;
+}
 
-  label {
-    font-weight: bold;
-  }
+label {
+  font-weight: bold;
+}
 
-  div {
-    padding-bottom: 20px;
-  }
+div {
+  padding-bottom: 20px;
+}
 
-  input[type="text"] {
-    padding: 5px;
-    width: 150px;
-  }
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
 
-  p {
-    background: #ffc125;
-    color: #5e2612;
-    padding: 10px;
-    visibility: hidden;
-  }
-/* Hidden until the story is generated */
-.story {
-    background-color: orange;
-    color: black;
-    padding: 10px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    visibility: hidden; 
+p {
+  background: #ffc125;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
 }
