@@ -4,31 +4,33 @@
 	Date: 29 - Nov - 2024
     Image Gallery
 	-->
-    
+
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="part2.css">
+</head>
+<body>
+<h1>Image Gallery</h1>
 
-    <title>Image gallery</title>
+<!-- Image Container-->
+<div class="full-img">
+    <img
+    class="displayed-img"
+    src="pic1.jpg"
+    alt="Placeholder image 1"
+    />
+    <div class="overlay"></div>
+    <button class="dark">Darken</button>
+</div>
 
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
+<!-- Thumbnail -->
+<div class="thumb-bar"></div>
 
-  <body>
-    <h1>Image gallery example</h1>
-
-    <div class="full-img">
-      <img class="displayed-img" src="images/pic1.jpg" alt="Closeup of a human eye">
-      <div class="overlay"></div>
-      <button class="dark">Darken</button>
-    </div>
-
-    <div class="thumb-bar">
-
-
-    </div>
-    <script src="main.js"></script>
-  </body>
+<!-- JavaScript file -->
+<script src="part2.js"></script>
+</body>
 </html>
